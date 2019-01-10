@@ -25,5 +25,5 @@ def count_elements(array)
   counts.keys
 end
 
-def merge_data(array, data)
+def merge_data(keys, data)
 end
