@@ -26,5 +26,5 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  
+  {first_name => "blake"
 end
