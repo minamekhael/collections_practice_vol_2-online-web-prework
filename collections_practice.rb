@@ -16,10 +16,11 @@ def remove_non_strings(element)
   element.delete_if { |obj| !(obj.is_a? String) }
 end
 
-def count_elements(element)
-  counts = Hash.new 0
-  element.each do |word|
-  counts[word] += 1
-end
-  counts.word
+def count_elements(array)
+  counts = Hash.new(0)
+  array.collect {|element| counts[element]+=1 }
+    counts.collect do |hash, number|
+      hash[:count] = number
+    end
+  counts.keys
 end
