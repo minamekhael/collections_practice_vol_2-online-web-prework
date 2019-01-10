@@ -28,6 +28,7 @@ end
 def merge_data(keys, data)
   keys.each do |name_hash|
   data.each do |hash|
-    
-  {first_name => "blake"
+  name_hash.merge!(hash[name_hash[:first_name]])
+    end
+  end
 end
