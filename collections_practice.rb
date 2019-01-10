@@ -26,6 +26,6 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  keys.each do 
+  keys.each do |name_hash|
   {first_name => "blake"
 end
