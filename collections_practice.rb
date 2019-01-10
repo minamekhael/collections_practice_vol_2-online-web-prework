@@ -21,4 +21,5 @@ def count_elements(element)
   element.each do |word|
   counts[word] += 1
 end
+  counts.word
 end
